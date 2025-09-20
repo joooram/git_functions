@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let text = "Jomar";
+        let carName1 = "Volvo XC60";  // Double quotes
+        let carName2 = 'Volvo XC69';  // Single quotes
+
+        // Back-Tics Syntax
+        let newtext1 = `Hello World!`;
+
+        // Quotes inside string
+        let newtext2 = `He's often called "Johnny"`;
+
+        // Multiline string
+        let newtext3 =
+        `The quick
+        brown fox
+        jumps over
+        the lazy dog`;
+
+        // Interpolation
+        let firstName = "John";
+        let lastName = "Doe";
+        let newtext4 = `Welcome ${firstName}, ${lastName}!`;
+
+        // Expression Substitution
+        let price = 10;
+        let VAT = 0.25;
+
+        let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+
+        //String Length
+        let newtext5 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        let length = newtext5.length;
+
+        // JavaScript String charAt()
+        let newtext6 = "HELLO WORLD";
+        let char = newtext6.charAt(0);
+
+        //JavaScript codePointAt()
+        let newtext8 = "HELLO WORLD";
+        let code = newtext8.codePointAt(0);
+
+        console.log(text);
+        console.log(carName1);
+        console.log(carName2);
+        console.log(newtext1);
+        console.log(newtext2);
+        console.log(newtext3);
+        console.log(newtext4);
+        console.log(newtext5);
+        console.log(newtext6);
+        console.log(newtext8);
+        console.log(total);
+        console.log(length);
+        console.log(char);
+        console.log(code);
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
